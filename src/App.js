@@ -9,9 +9,11 @@ function App() {
   return (
     <Router>
       <Navigation />
-      <Route to="/:type">
+
+      <Route path="/:type?">
         <HomePage />
       </Route>
+
     </Router>
   );
 }
